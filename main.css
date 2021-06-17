@@ -1,0 +1,47 @@
+header {
+    width: 1024px;
+    height: 341px;
+    overflow: hidden;
+    background-color: pink;
+    border: 1px solid block;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  header img {
+    position: absolute;
+    top: 0; left: 0;
+  }
+  
+  header h1{
+    background-color: red;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 55px
+  }
+  
+  article{
+    width: 984px;
+    margin: 0 auto;
+    background: red;
+    padding: 20px;
+    border: 1px solid black;
+  }
+  
+  article img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  
+  clear {
+    clear: both;
+    border-top: 1px solid green;
+  }
+  
+  nav {
+    width: 984px;
+    margin: 0 auto;
+    border: 1px solid black;
+  }
